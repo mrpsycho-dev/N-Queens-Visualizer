@@ -7,7 +7,7 @@ char board[MAX][MAX];
 int totalSolutions = 0;
 bool findAll = true;
 
-// Check if it is safe to place the queen at any point
+// Check if it is safe to place the queen at any point/ cell
 bool isSafe(int row, int col, int n)
 {
   // Check column
